@@ -145,7 +145,7 @@
             <text class="more">更多></text>
         </view>
         <view class="zw-banner">
-            <image style="width:750rpx; height:400rpx;" src="https://topic.camel.com.cn/module/wap_index_gooutdoor_201709/be8da4f7-2920-4b93-b66e-e053e2272094.jpg" alt=""></image>
+            <image style="width:750rpx; height:376rpx;" src="https://topic.camel.com.cn/module/wap_index_gooutdoor_201709/be8da4f7-2920-4b93-b66e-e053e2272094.jpg" alt=""></image>
         </view>
 
         <view class="zw-proul">
@@ -176,7 +176,227 @@
         </view>
     </view>
 
-    <view class="layort-h"></view>
-    <view class="layort-h"></view>
-    <view class="layort-h"></view>
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title4.png" alt=""></image>
+            <text class="more">更多></text>
+        </view>
+
+        <view class="zw-banner">
+            <image style="width:750rpx; height:376rpx;" src="https://topic.camel.com.cn/module/wap_index_juhui_201709/8e584139-33d7-495a-86fc-af28f919bf0c.jpg" alt=""></image>
+        </view>
+
+        <view class="zw-proul2">
+            <view class="zw-proli2">
+                <image src="https://img01.camel.com.cn/product/image/1F01018/918b822c-76f0-4f29-b3e2-cced7e961e1d.jpg" alt=""></image>
+                <view class="zw-proli-tips">排湿透气 不怕背着黏糊糊</view>
+                <view class="zw-proli-info">
+                    <view>骆驼户外登山包</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 158 -->￥
+                        <!-- /react-text -->
+                        <text class="price">178.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli2">
+                <image src="https://img01.camel.com.cn/product/image/A5W3H8101/9f739417-7bfe-49fd-a4d9-dc09eecbc42c.jpg" alt=""></image>
+                <view class="zw-proli-tips">3秒速开 一眨眼就完成</view>
+                <view class="zw-proli-info">
+                    <view>第四代自动速开帐篷</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">238.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli2">
+                <image src="https://img01.camel.com.cn/product/image/A5W3H8101/9f739417-7bfe-49fd-a4d9-dc09eecbc42c.jpg" alt=""></image>
+                <view class="zw-proli-tips">3秒速开 一眨眼就完成</view>
+                <view class="zw-proli-info">
+                    <view>第四代自动速开帐篷</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">238.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli2">
+                <image src="https://img01.camel.com.cn/product/image/A5W3H8101/9f739417-7bfe-49fd-a4d9-dc09eecbc42c.jpg" alt=""></image>
+                <view class="zw-proli-tips">3秒速开 一眨眼就完成</view>
+                <view class="zw-proli-info">
+                    <view>第四代自动速开帐篷</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">238.00</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title5.png" alt=""></image>
+            <text class="more">更多></text>
+        </view>
+        <view class="zw-banner">
+            <image style="width:750rpx; height:376rpx;" src="https://topic.camel.com.cn/module/wap_index_pztravel_201709/fd7fe4df-bace-4b11-9923-d26a7eaeae8e.jpg" alt=""></image>
+        </view>
+
+        <view class="zw-proul">
+            <view class="zw-proli">
+                <image src="https://img01.camel.com.cn/product/image/1F01018/918b822c-76f0-4f29-b3e2-cced7e961e1d.jpg" alt=""></image>
+                <view class="zw-proli-tips">排湿透气 不怕背着黏糊糊</view>
+                <view class="zw-proli-info">
+                    <view>骆驼户外登山包</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 158 -->￥
+                        <!-- /react-text -->
+                        <text class="price">178.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli">
+                <image src="https://img01.camel.com.cn/product/image/A5W3H8101/9f739417-7bfe-49fd-a4d9-dc09eecbc42c.jpg" alt=""></image>
+                <view class="zw-proli-tips">3秒速开 一眨眼就完成</view>
+                <view class="zw-proli-info">
+                    <view>第四代自动速开帐篷</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">238.00</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title6.png" alt=""></image>
+            <text class="more">更多></text>
+        </view>
+        <view class="zw-banner">
+            <image style="width:750rpx; height:405rpx;" src="https://topic.camel.com.cn/module/wap_index_yujiagirl_201709/344cc183-61e5-444f-b22c-9c46e699f43f.jpg" alt=""></image>
+        </view>
+
+        <view class="zw-proshow">
+            <view class="zw-proshow-li">
+                <image class="zw-proshow-li-img" src="https://img01.camel.com.cn/product/image/A7S1U8135/b45432fc-aa90-4ebd-81b2-970d0b7585c6.jpg" alt=""></image>
+                <view class="zw-pli-info">
+                    <view class="pli-info-wrap">
+                        <view>
+                            <text class="h2">无缝一体提臀裤</text>
+                        </view>
+                        <view>
+                            <text class="p1">雕塑S迷人身材</text>
+                        </view>
+                        <view class="h1">
+                            <!-- react-text: 228 -->￥
+                            <!-- /react-text -->
+                            <text>229.00</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proshow-li">
+                <image class="zw-proshow-li-img" src="https://img01.camel.com.cn/product/image/A7S1Q9117/f4e069a6-c3b3-40db-bd90-dbbfe0abd70b.jpg" alt=""></image>
+                <view class="zw-pli-info">
+                    <view class="pli-info-wrap">
+                        <view>
+                            <text class="h2">360°防震运动内衣</text>
+                        </view>
+                        <view>
+                            <text class="p1">一体编织成型</text>
+                        </view>
+                        <view class="h1">
+                            <!-- react-text: 236 -->￥
+                            <!-- /react-text -->
+                            <text>56.00</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proshow-li">
+                <image class="zw-proshow-li-img" src="https://img01.camel.com.cn/product/image/A7W1Q9106/2e21e361-5e2b-4a4f-94e1-d7827d3baced.jpg" alt=""></image>
+                <view class="zw-pli-info">
+                    <view class="pli-info-wrap">
+                        <view>
+                            <text class="h2">3D修身裁剪5件套</text>
+                        </view>
+                        <view>
+                            <text class="p1">一穿立变蜜桃臀</text>
+                        </view>
+                        <view class="h1">
+                            <!-- react-text: 244 -->￥
+                            <!-- /react-text -->
+                            <text>58.00</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proshow-li">
+                <image class="zw-proshow-li-img" src="https://img01.camel.com.cn/product/image/A7W1X7129/801f0dac-a93a-4ada-916f-87cc6d2106d7.jpg" alt=""></image>
+                <view class="zw-pli-info">
+                    <view class="pli-info-wrap">
+                        <view>
+                            <text class="h2">活力弹力4件套</text>
+                        </view>
+                        <view>
+                            <text class="p1">包出好三围</text>
+                        </view>
+                        <view class="h1">
+                            <!-- react-text: 252 -->￥
+                            <!-- /react-text -->
+                            <text>219.00</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:298rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title7.png" alt=""></image>
+            <text class="more">更多></text>
+        </view>
+        <view class="zw-banner">
+            <image style="width:750rpx; height:376rpx;" src="https://topic.camel.com.cn/module/wap_index_peichild_201709/0c70dad9-f11e-4e2d-9651-ad001bb94cda.jpg" alt=""></image>
+        </view>
+
+        <view class="zw-proul">
+            <view class="zw-proli">
+                <image src="https://img01.camel.com.cn/product/image/1F01018/918b822c-76f0-4f29-b3e2-cced7e961e1d.jpg" alt=""></image>
+                <view class="zw-proli-tips">排湿透气 不怕背着黏糊糊</view>
+                <view class="zw-proli-info">
+                    <view>骆驼户外登山包</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 158 -->￥
+                        <!-- /react-text -->
+                        <text class="price">178.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli">
+                <image src="https://img01.camel.com.cn/product/image/A5W3H8101/9f739417-7bfe-49fd-a4d9-dc09eecbc42c.jpg" alt=""></image>
+                <view class="zw-proli-tips">3秒速开 一眨眼就完成</view>
+                <view class="zw-proli-info">
+                    <view>第四代自动速开帐篷</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">238.00</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    
 </view>

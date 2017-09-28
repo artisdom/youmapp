@@ -19,9 +19,7 @@
                 "selectedIconPath": "images/zw_icony1.png",
                 "iconPath": "images/tab_icons_01.png",
                 "pagePath": "pages/index/index",
-                "text": "首页",
-                "width": "19px",
-                "height": "19px"
+                "text": "首页"
             },
             {
                 "selectedIconPath": "images/tab_icons_03.png",

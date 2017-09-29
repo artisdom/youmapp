@@ -1,2 +1,81 @@
 <!--pages/basket/basket.wxml-->
-<text>pages/basket/basket.wxml</text>
+<view class="container greybg">
+
+    <view class="m-indexHd" style="height: 44px;">
+        <view class="m-hd">
+            <view class="">
+                <view class="product-hd g-row">
+                    <view class="g-top g-row">
+                        <i class="icon tg-icon ion-ios-arrow-back"></i>
+                        <text class="topBarTitle">购物车</text>
+                        <view class="right">
+                            <i class="icon tg-icon ion-ios-home-outline"></i>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+    <view class="cart-wrap">
+        <view class="mc-servicePolicy">
+            <view class="item">
+                <text>30天无忧退货</text>
+            </view>
+            <view class="item">
+                <text>48小时快速退款</text>
+            </view>
+            <view class="item">
+                <text>满59元免邮费</text>
+            </view>
+        </view>
+        <view class="m-cartGroup">
+            <view class="list">
+                <view class="item">
+                    <view class="inner">
+                        <view class="m-good">
+                            <i class="icon icon-ischecked-g ion-checkmark-circled"></i>
+                            <view class="imgWrap">
+                                <image src="https://img01.camel.com.cn/product/image/D6Y105770/cf2d08db-449d-4fb5-9561-c69b5c97ca5d.jpg!prodimg100" alt="" mode="widthFix"></image>
+                            </view>
+                            <view class="cnt">
+                                <view class="line1">Camel骆驼男装 秋冬款新品男士流行纯色可脱卸帽羽绒服外套</view>
+                                <view class="line2">咖啡*M(170/88A)</view>
+                                <view class="line3">￥218.00</view>
+                            </view>
+                            <view class="m-selnum">
+                                <view class="less dis">
+                                    <i class="icon ion-ios-minus-empty"></i>
+                                </view>
+                                <view class="textWrap">
+                                    <input class="txt" value="1" />
+                                </view>
+                                <view class="plus">
+                                    <i class="icon ion-ios-plus-empty"></i>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="del">
+                            <i class="icon icon-trash ion-ios-trash-outline"></i>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="m-cartFT">
+            <view class="left">
+                <view class="checkAll">
+                    <i class="icon icon-ischecked-g ion-checkmark-circled"></i>
+                    <text class="txt">已选 (1)</text>
+                </view>
+                <view class="price">￥218.00
+                    <text class="prefer">（优惠:0）</text>
+                </view>
+            </view>
+            <view class="right">
+                <view class="btn w-button">下单</view>
+            </view>
+        </view>
+    </view>
+</view>

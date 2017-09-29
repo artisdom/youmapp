@@ -1,5 +1,5 @@
 <!--pages/category/category.wxml-->
-<view class="container">
+<view class="container whitebg">
 
     <view class="m-indexHd" style="height: 102rpx;">
         <view class="m-hd g-row">

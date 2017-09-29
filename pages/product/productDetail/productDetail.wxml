@@ -36,24 +36,115 @@
             <view class="info">
                 <view class="name">Camel骆驼运动跑鞋 男女休闲透气运动鞋 轻便耐磨跑步鞋</view>
                 <view class="desc">中国田径协会马拉松赛指定款 竞速级跑步体验</view>
-                <view class="price">
-                    <!-- react-text: 4161 -->￥
-                    <!-- /react-text -->
-                    <!-- react-text: 4162 -->140.00
-                    <!-- /react-text -->
-                </view>
-                <view class="taglist">
+                <view class="price">￥140.00</view>
+                <!-- <view class="taglist">
                     <view class="wrap"></view>
-                </view>
+                </view> -->
             </view>
             <view class="comment collet">
                 <view class="wrap">
                     <i class="icon ion-ios-star-outline"></i>
                     <view class="more">
-                        <span>收藏</span>
+                        <text>收藏</text>
                     </view>
                 </view>
             </view>
+        </view>
+    </view>
+
+    <view class="dt-section-2">
+        <view class="m-listItem">
+            <view class="left">
+                <text class="txt">请选择规格数量</text>
+            </view>
+            <view class="middle"></view>
+            <view class="right">
+                <i class="icon ion-ios-arrow-right"></i>
+            </view>
+        </view>
+        <view class="m-listItem m-li-noborder">
+            <view class="left">
+                <text class="txt">服务：</text>
+            </view>
+            <view class="middle">
+                <view class="m-serversEntry">
+                    <view class="mse-wrap">
+                        <view class="item">保价服务</view>
+                        <view class="item">100%正品保障</view>
+                    </view>
+                    <view class="mse-wrap">
+                        <view class="item">59元包邮</view>
+                        <view class="item">七天无理由退换</view>
+                    </view>
+                </view>
+            </view>
+            <view class="right">
+                <i class="icon ion-ios-arrow-right"></i>
+            </view>
+        </view>
+    </view>
+
+    <view class="dt-section-2 dt-section-3 dt-comment">
+        <view class="m-listItem">
+            <view class="left">
+                <text class="txt">用户评价(999)</text>
+            </view>
+            <view class="middle"></view>
+            <view class="right">
+                <i class="icon ion-ios-arrow-right"></i>
+            </view>
+        </view>
+        <view class="comment-item">
+            <view class="comment-hd">
+                <view class="link">
+                    <image class="avatar" src="https://img02.camel.com.cn/image/headportrait345.png" alt=""></image>
+                    <text class="name">匿名***</text>
+                </view>
+            </view>
+            <view class="extraInfo">
+                <text class="time">2017年09月19日 17:54:00</text>
+                <text class="skus">女,粉红38</text>
+            </view>
+            <view class="content">
+                <p class="txt">物有所值，希望大家购买，穿着十分轻便、透气，优良鞋底很厚，鞋子是正品，鞋底防滑效果不错，价格也便宜，是运动健身很好的选择，推荐给大家放心、舒心、安心的购买</p>
+            </view>
+            <view class="commentPics">
+                <ul class="list"></ul>
+            </view>
+        </view>
+    </view>
+
+    <view class="dt-section-2 de-content">
+        <view class="deitalInfos">
+            <view class="m-attrCon">
+                <view class="attrList">
+                    <view class="tt">商品参数</view>
+                    <view class="item">
+                        <view class="left">货号</view>
+                        <view class="right">
+                            <view class="con">A712357085</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <image src="https://img01.camel.com.cn/product/detail/A712357085/7b743ca4-54fe-408a-aeb6-380603f20c73.jpg" alt="" mode="widthFix"></image>
+        </view>
+        <view class="m-commonIssues m-rmcdGoods">
+            <view class="tt">
+                <view class="line"></view>
+                <span class="text">大家都在看</span>
+            </view>
+            <view class=""></view>
+        </view>
+    </view>
+
+    <view class="m-btnGroup">
+        <view class="inner">
+            <view class="btn btn1">
+                <i class="icon icon-kefu ion-ios-chatbubble-outline"></i>
+            </view>
+            <view class="btn btn2">立即购买</view>
+            <view class="btn btn3">加入购物车</view>
         </view>
     </view>
 </view>

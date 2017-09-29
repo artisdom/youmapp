@@ -1,0 +1,18 @@
+<!--pages/search/search.wxml-->
+<view class="search-top">
+    <view class="search-box g-row">
+        <view class="m-ipt m-searchIpt">
+            <view class="icon ion-ios-search icon-search"></view>
+            <input placeholder="冲锋衣 买1赠1" class="search-input" name="search" focus="true" />
+            <view class="icon ion-ios-close icon-search-del"></view>
+        </view>
+        <view class="cancel-search">取消</view>
+    </view>
+    <view class="m-search-section g-row">
+        <view class="hd">热门搜索</view>
+        <view class="list">
+            <view class='hot'>冲锋衣</view>
+            <view>冲锋裤</view>
+        </view>
+    </view>
+</view>

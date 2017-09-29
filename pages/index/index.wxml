@@ -6,23 +6,55 @@
                 <view class="top-line">
                     <view class="logo"></view>
                     <view class="m-searchTop">
-                        <view class="zw-search-link">
-                            <view class="icon-search"></view>
-                            <text class="placeholder">点击输入搜索商品</text>
-                        </view>
+                        <navigator url="../search/search" hover-class="changestyle">
+                            <view class="zw-search-link">
+                                <view class="icon-search"></view>
+                                <text class="placeholder">点击输入搜索商品</text>
+                            </view>
+                        </navigator>
                     </view>
                 </view>
             </view>
             <view class="inner">
                 <view class="m-navs disflex">
                     <view class="active">
-                        <text class="txt">推荐</text>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">推荐</text></navigator>
                     </view>
                     <view>
-                        <text class="txt">户外</text>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">户外</text></navigator>
                     </view>
                     <view>
-                        <text class="txt">运动</text>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">运动</text></navigator>
+                    </view>
+                    <view>
+                        <text class="txt">瑜伽</text>
+                    </view>
+                    <view>
+                        <text class="txt">男鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">女鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">童装</text>
+                    </view>
+                    <view>
+                        <text class="txt">男装</text>
+                    </view>
+                    <view>
+                        <text class="txt">瑜伽</text>
+                    </view>
+                    <view>
+                        <text class="txt">男鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">女鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">童装</text>
+                    </view>
+                    <view>
+                        <text class="txt">男装</text>
                     </view>
                     <view>
                         <text class="txt">瑜伽</text>
@@ -45,11 +77,13 @@
     </view>
 
     <view class="zw-banner">
-        <view class="swiperWrap">
-            <view class="swiper-container">
-                <image default="http://img02.camel.com.cn/image/zw_icon1.png" src="https://topic.camel.com.cn/module/wap_index_focus_201709/92b890bb-7182-4ba4-8bc7-3ffd7ebbcf1c.jpg" style="width:750rpx; height:376rpx"></image>
-            </view>
-        </view>
+        <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" circular="{{circular}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                    <navigator url="../product/productDetail/productDetail" hover-class="changestyle"><image src="{{item}}" class="slide-image" width="750" height="376" /></navigator>
+                </swiper-item>
+            </block>
+        </swiper>
     </view>
 
     <view class="zw-tabs">
@@ -398,5 +432,5 @@
         </view>
     </view>
 
-    
+
 </view>

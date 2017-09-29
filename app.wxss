@@ -1,7 +1,6 @@
 /**app.wxss**/
-
+@import "ionicons.wxss";
 /* reset css*/
-
 blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1,
 h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td,
 textarea, th, ul {
@@ -215,6 +214,25 @@ html, body {
     }
 }
 
+.zw-banner swiper {
+    display: block;
+    height: 376rpx;
+}
+.zw-banner swiper image{
+    display: block;
+    height: 376rpx;
+}
+
+
+.detail-swiper swiper {
+    display: block;
+    height: 750rpx;
+}
+.detail-swiper swiper image{
+    display: block;
+    height: 750rpx;
+}
+
 .icon-loading {
     margin-left: 26rpx;
     color: #eee;
@@ -287,7 +305,6 @@ html, body {
 }
 
 .g-row {
-    width: 750rpx;
     margin-left: auto;
     margin-right: auto;
 }
@@ -303,7 +320,6 @@ html, body {
 .show {
     display: none;
 }
-
 .m-indexHd .m-hd {
     background-color: #fff;
     position: fixed;
@@ -409,6 +425,7 @@ html, body {
     height: 60rpx;
     padding: 0 30rpx;
     overflow-y: hidden;
+    white-space: nowrap
 }
 
 .m-navs::-webkit-scrollbar {
@@ -471,6 +488,7 @@ html, body {
 
 .inner {
     width: 100%;
+    overflow:hidden;
     background-color: #fff;
 }
 
@@ -776,8 +794,8 @@ html, body {
 .cate-left {
     position: fixed;
     bottom: 0;
-    top: 112rpx;
-    width: 215rpx;
+    top: 102rpx;
+    width: 164rpx;
     height: 100%;
 }
 
@@ -816,7 +834,7 @@ html, body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 0.0600rpx;
+    width: 4rpx;
     background-color: #ab2b2b;
 }
 
@@ -831,12 +849,12 @@ html, body {
 }
 
 .cate-right {
-    margin-left: 215rpx;
+    margin-left: 164rpx;
     padding: 15rpx;
-    width: 760rpx;
+     width: 585rpx; 
 }
 
-.cate-bn img {
+.cate-bn image {
     width: 100%;
 }
 
@@ -871,11 +889,11 @@ html, body {
 }
 
 .cate-list {
-    width: 745rpx;
+    width: 100%;
 }
 
 .cate-list .item {
-    width: 215rpx;
+    width: 165rpx;
     display: inline-block;
     margin-left: 19rpx;
     margin-top: 30rpx;
@@ -883,8 +901,9 @@ html, body {
     font-size: 22rpx;
 }
 
-.cate-list .item img {
-    width: 100%;
+.cate-list .item image {
+    width: 166rpx;
+    height:166rpx;
 }
 
 .search-top {
@@ -946,27 +965,28 @@ html, body {
     color: #999;
 }
 
-.m-search-section .list span {
+.m-search-section .list view {
     display: inline-block;
-    padding: 11rpx 15rpx;
+    padding: 6rpx 10rpx;
     margin-right: 22rpx;
     margin-top: 22rpx;
     border: 1px solid #999;
     border-radius: 3px;
     color: #333;
+    font-size: 14px;
 }
 
-.m-search-section .list span:active {
+.m-search-section .list view:active {
     background-color: #999;
     color: #fff;
 }
 
-.m-search-section .list span.hot:active {
+.m-search-section .list view.hot:active {
     background-color: #b4282d;
     color: #fff;
 }
 
-.m-search-section .list span.hot {
+.m-search-section .list view.hot {
     border-color: #b4282d;
     color: #b4282d;
 }
@@ -1041,7 +1061,8 @@ html, body {
 
 .m-goods-grid .list .item {
     display: inline-block;
-    width: 445rpx;
+    width: 350rpx;
+    overflow:hidden;
     margin-left: 19rpx;
     margin-bottom: 30rpx;
     height: 737rpx;
@@ -1050,18 +1071,19 @@ html, body {
 
 .m-goods-grid .pic {
     width: 100%;
+    height:350rpx;
     display: block;
     background-color: #f4f4f4;
     border-radius: 0.0399975rpx 0.0399975rpx 0 0;
 }
 
-.m-goods-grid li.item .hd {
+.m-goods-grid .item .hd {
     position: relative;
 }
 
 .m-goods-grid .specification {
     border: 1px solid #b4a078;
-    border-radius: 0.0399975rpx;
+    border-radius: 5rpx;
     position: absolute;
     width: 35rpx;
     top: 0;
@@ -1083,7 +1105,7 @@ html, body {
 
 .m-goods-grid .list .item .desc {
     bottom: 0;
-    height: 67rpx;
+    height: 28rpx;
     width: 100%;
     background: #f1ece2;
     border-radius: 0 0 0.0399975rpx 0.0399975rpx;
@@ -1138,6 +1160,7 @@ html, body {
     font-size: 32rpx;
     text-align: left;
     color: #b4282d;
+    margin-top:10rpx;
     padding: 0 9rpx;
 }
 
@@ -1304,7 +1327,7 @@ html, body {
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
-    width: 2.0600rpx;
+    width: 160rpx;
     background-size: 1px 12px;
     background-repeat: repeat-y;
     text-align: center;
@@ -1330,6 +1353,7 @@ html, body {
     border-radius: 2px;
     text-align: center;
     padding: 0 15rpx;
+    font-size:24rpx;
 }
 
 .m-detailBase .collet .icon {
@@ -3922,7 +3946,7 @@ html, body {
 
 .zw-proshow {
     background-color: #fff;
-    margin-top:6rpx;
+    margin-top: 6rpx;
 }
 
 .zw-proshow-li {

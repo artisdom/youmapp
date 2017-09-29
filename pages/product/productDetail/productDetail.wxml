@@ -1,0 +1,59 @@
+<!--pages/product/productDetail/productDetail.wxml-->
+<view class="container greybg">
+
+    <!-- <view class="m-indexHd" style="height: 102rpx;">
+        <view class="m-hd g-row">
+            <view class="m-indextop">
+                <view class="top-line">
+                    <view class="logo"></view>
+                    <view class="m-searchTop">
+                        <navigator url="../search/search" hover-class="changestyle">
+                            <view class="zw-search-link">
+                                <view class="icon-search"></view>
+                                <text class="placeholder">点击输入搜索商品</text>
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view> -->
+
+    <view class="zw-banner detail-swiper">
+        <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" circular="{{circular}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                    <navigator url="../product/productDetail/productDetail" hover-class="changestyle">
+                        <image src="{{item}}" class="slide-image" width="750" height="376" />
+                    </navigator>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+    <view class="dt-section">
+        <view class="m-detailBase">
+            <view class="info">
+                <view class="name">Camel骆驼运动跑鞋 男女休闲透气运动鞋 轻便耐磨跑步鞋</view>
+                <view class="desc">中国田径协会马拉松赛指定款 竞速级跑步体验</view>
+                <view class="price">
+                    <!-- react-text: 4161 -->￥
+                    <!-- /react-text -->
+                    <!-- react-text: 4162 -->140.00
+                    <!-- /react-text -->
+                </view>
+                <view class="taglist">
+                    <view class="wrap"></view>
+                </view>
+            </view>
+            <view class="comment collet">
+                <view class="wrap">
+                    <i class="icon ion-ios-star-outline"></i>
+                    <view class="more">
+                        <span>收藏</span>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

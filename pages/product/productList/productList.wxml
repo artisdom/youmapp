@@ -1,0 +1,135 @@
+<!--pages/product/productList/productList.wxml-->
+<view class="container">
+    <view class="m-indexHd" style="height: 162rpx;">
+        <view class="m-hd g-row">
+            <view class="m-indextop">
+                <view class="top-line">
+                    <view class="logo"></view>
+                    <view class="m-searchTop">
+                        <navigator url="../search/search" hover-class="changestyle">
+                            <view class="zw-search-link">
+                                <view class="icon-search"></view>
+                                <text class="placeholder">点击输入搜索商品</text>
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+            <view class="inner">
+                <view class="m-navs disflex">
+                    <view class="active">
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover">
+                            <text class="txt">推荐</text>
+                        </navigator>
+                    </view>
+                    <view>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover">
+                            <text class="txt">户外</text>
+                        </navigator>
+                    </view>
+                    <view>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover">
+                            <text class="txt">运动</text>
+                        </navigator>
+                    </view>
+                    <view>
+                        <text class="txt">瑜伽</text>
+                    </view>
+                    <view>
+                        <text class="txt">男鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">女鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">童装</text>
+                    </view>
+                    <view>
+                        <text class="txt">男装</text>
+                    </view>
+                    <view>
+                        <text class="txt">瑜伽</text>
+                    </view>
+                    <view>
+                        <text class="txt">男鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">女鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">童装</text>
+                    </view>
+                    <view>
+                        <text class="txt">男装</text>
+                    </view>
+                    <view>
+                        <text class="txt">瑜伽</text>
+                    </view>
+                    <view>
+                        <text class="txt">男鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">女鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">童装</text>
+                    </view>
+                    <view>
+                        <text class="txt">男装</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="m-list-floor g-row">
+        <view class="hd3">
+            <view class="dtit">户外装备</view>
+            <view class="desc"></view>
+        </view>
+        <view class="m-goods-grid">
+            <view class="list">
+                <view class="item">
+                    <view class="wraper">
+                        <view class="hd">
+                            <image class="pic" src="https://img01.camel.com.cn/product/image/A712357085/48308a7a-c16e-40b9-b7fd-d9165f3a4c6b.jpg!prodimg245" alt=""></image>
+                            <view class="specification">
+                                <view class="count">8</view>
+                                <!-- react-text: 4122 -->色可选
+                                <!-- /react-text -->
+                            </view>
+                        </view>
+                        <view class="desc">中国田径协会马拉松赛指定款 竞速级跑步体验</view>
+                        <view class="name">Camel骆驼运动跑鞋 男女休闲透气运动鞋 轻便耐磨跑步鞋</view>
+                        <view class="price">
+                            <!-- react-text: 4126 -->￥
+                            <!-- /react-text -->
+                            <!-- react-text: 4127 -->140.00
+                            <!-- /react-text -->
+                        </view>
+                    </view>
+                </view>
+                <view class="item">
+                    <view class="wraper">
+                        <view class="hd">
+                            <image class="pic" src="https://img01.camel.com.cn/product/image/A612168140/9d954b47-6e66-4159-94f8-42360e39a8b7.jpg!prodimg245" alt=""></image>
+                            <view class="specification">
+                                <view class="count">2</view>
+                                <!-- react-text: 4135 -->色可选
+                                <!-- /react-text -->
+                            </view>
+                        </view>
+                        <view class="desc">休闲皮鞋 头层牛皮 柔软舒适百搭</view>
+                        <view class="name">【专柜同款】Camel/骆驼男鞋 新款男士休闲鞋真皮透气皮鞋</view>
+                        <view class="price">
+                            <!-- react-text: 4126 -->￥
+                            <!-- /react-text -->
+                            <!-- react-text: 4127 -->140.00
+                            <!-- /react-text -->
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

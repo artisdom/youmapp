@@ -1,2 +1,51 @@
 <!--pages/center/center.wxml-->
-<text>pages/center/center.wxml</text>
+<view class="m-ucenter g-row greybg">
+	<view class="m-uc-top">
+		<view class="m-profile">
+			<image class="avatar" src="https://img02.camel.com.cn/image/headportrait345.png" alt=""></image>
+			<view class="info">
+				<view class="nickname">
+					camel1059205
+				</view>
+				<view class="membershipLevel">
+					<text class="memberTitle1">驼客</text>
+				</view>
+				<view class="icon ion-ios-arrow-right top_right"></view>
+			</view>
+		</view>
+	</view>
+	<view class="m-uc-wrap">
+		<view class="m-uc-wraptit">
+			<text class="txt">我的订单</text><view class="icon-arrow-right">查看全部订单></view>
+		</view>
+		<view class="m-uc-menu">
+			<view class="list">
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon1.png" alt=""></image><text class="txt">待付款</text><text class="red-dot">0</text></view>
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon2.png" alt=""></image><text class="txt">待发货</text><text class="red-dot">0</text></view>
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon3.png" alt=""></image><text class="txt">已发货</text><text class="red-dot">0</text></view>
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon4.png" alt=""></image><text class="txt">待评价</text><text class="red-dot">0</text></view>
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon5.png" alt=""></image><text class="txt">退款/售后</text></view>
+			</view>
+		</view>
+	</view>
+	<view class="m-uc-wrap">
+		<view class="m-uc-wraptit">
+			<text class="txt">我的服务</text>
+		</view>
+		<view class="m-uc-menu">
+			<view class="list">
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon6.png" alt=""></image><text class="txt">优惠券</text></view>
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon7.png" alt=""></image><text class="txt">收藏夹</text></view>
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon8.png" alt=""></image><text class="txt">商品点评</text></view>
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon9.png" alt=""></image><text class="txt">联系客服</text></view>
+			</view>
+			<view class="list">
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon10.png" alt=""></image><text class="txt">地址管理</text></view>
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon11.png" alt=""></image><text class="txt">修改密码</text></view>
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon12.png" alt=""></image><text class="txt">帮助</text></view>
+				<view class="item"><image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon13.png" alt=""></image><text class="txt">设置</text></view>
+			</view>
+		</view>
+	</view>
+	<button class="w-button ">退出</button>
+</view>

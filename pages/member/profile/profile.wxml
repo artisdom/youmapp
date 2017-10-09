@@ -1,0 +1,71 @@
+<!--pages/member/profile/profile.wxml-->
+<view class="container greybg">
+    <view class="m-indexHd" style="height: 44px;">
+        <view class="m-hd">
+            <view class="">
+                <view class="product-hd g-row">
+                    <view class="g-top g-row">
+                        <i class="icon tg-icon ion-ios-arrow-back"></i>
+                        <text class="topBarTitle">个人资料</text>
+                        <view class="right">
+                            <i class="icon tg-icon ion-ios-home-outline"></i>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+    <view class="userProfile">
+        <view class="avatar">
+            <view class="wrap">
+                <image class="pic" mode="widthFix" src="https://img02.camel.com.cn/image/headportrait345.png" alt=""></image>
+            </view>
+        </view>
+        <view class="infos">
+            <view class="item">
+                <text class="label">帐号</text>
+                <view class="right">
+                    <span>camel1059205</span>
+                </view>
+            </view>
+            <view class="item">
+                <text class="label">姓名</text>
+                <view class="right">
+                    <input type="text" class="txtInput" value="" placeholder="请输入姓名" />
+                </view>
+            </view>
+            <view class="item">
+                <text class="label">性别</text>
+                <view class="right">
+                    <view class="sex-wrap">
+                        <i class="icon icon-nochecked-g ion-ios-circle-outline"></i>
+                        <span class="spanTxt">男</span>
+                    </view>
+                    <view class="sex-wrap">
+                        <i class="icon icon-nochecked-g ion-ios-circle-outline"></i>
+                        <span class="spanTxt">女</span>
+                    </view>
+                </view>
+            </view>
+            <view class="item">
+                <text class="label">生日</text>
+                <view class="right">
+                    <view>请选择</view>
+                </view>
+            </view>
+            <view class="item">
+                <text class="label">地区</text>
+                <view class="right">
+                    <view>请选择</view>
+                </view>
+            </view>
+        </view>
+        <view class="orderRFT">
+            <view class="left">取消</view>
+            <view class="right">保存</view>
+        </view>
+    </view>
+
+</view>

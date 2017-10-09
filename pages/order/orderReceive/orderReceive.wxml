@@ -1,0 +1,45 @@
+<!--pages/order/orderReceive/orderReceive.wxml-->
+<view class="greybgh100">
+    <view class="m-address-form ">
+        <view class="section">
+            <view class="inputwrap">
+                <view class="inputBox">
+                    <view class="addrBox">请选择</view>
+                </view>
+            </view>
+
+            <view class="inputwrap ">
+                <view class="inputBox ">
+                    <input class="j-inputtext lophone" placeholder="详细地址, 如街道、楼盘号等" maxlength="100" value="" />
+                    <view class="utip">
+                        <i class="icon u-clear ion-ios-close"></i>
+                    </view>
+                </view>
+            </view>
+            <view class="inputwrap ">
+                <view class="inputBox ">
+                    <input class="j-inputtext lophone" placeholder="姓名" maxlength="100" value="" />
+                    <view class="utip">
+                        <i class="icon u-clear ion-ios-close"></i>
+                    </view>
+                </view>
+            </view>
+            <view class="inputwrap ">
+                <view class="inputBox ">
+                    <input type="number" class="j-inputtext lophone" placeholder="手机号码" maxlength="11" value="" />
+                    <view class="utip">
+                        <i class="icon u-clear ion-ios-close"></i>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="section-1">
+            <i class="icon icon-nochecked-g ion-ios-circle-outline"></i>
+            <span class="txt">设为默认地址</span>
+        </view>
+        <view class="orderRFT">
+            <view class="left">取消</view>
+            <view class="right">保存</view>
+        </view>
+    </view>
+</view>

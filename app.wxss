@@ -1,5 +1,5 @@
-/**app.wxss**/
 @import "ionicons.wxss";
+
 /* reset css*/
 blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1,
 h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td,
@@ -198,7 +198,13 @@ page {
 .whitebg {
     background-color: #fff;
 }
+
 .greybg {
+    background-color: #f4f4f4;
+    min-height:100%;
+}
+
+.greybgh100 {
     background-color: #f4f4f4;
     height:100%;
 }
@@ -1189,11 +1195,11 @@ m-indexHd .inner {
 }
 
 .m-ucenter {
-    padding-bottom: 130rpx;
+    /* padding-bottom: 130rpx; */
 }
 
 .m-uc-top {
-    height: 345rpx;
+    height: 250rpx;
     background: url(http://img02.camel.com.cn/image/m-uc-top-bg.jpg) no-repeat top center;
     background-size: 100%;
 }
@@ -1224,11 +1230,12 @@ m-indexHd .inner {
 
 .m-uc-wrap {
     background-color: #fff;
+    margin-top:20rpx;
 }
 
 .m-uc-wraptit {
-    height: 115rpx;
-    line-height: 115rpx;
+    height: 80rpx;
+    line-height: 80rpx;
     border-bottom: 1px solid #d9d9d9;
     margin-left: 22rpx;
     font-size: 30rpx;
@@ -1238,7 +1245,7 @@ m-indexHd .inner {
 
 .m-uc-wraptit .icon-arrow-right {
     margin-right: 22rpx;
-    font-size: 45rpx;
+    font-size: 24rpx;
     color: #999;
 }
 
@@ -1258,10 +1265,11 @@ m-indexHd .inner {
 
 .m-uc-menu .red-dot {
     background-color: #db2929;
+    font-size:25rpx;
     color: #fff;
     width: 37rpx;
     height: 37rpx;
-    line-height: 41rpx;
+    line-height: 37rpx;
     text-align: center;
     border-radius: 50%;
     position: absolute;
@@ -1281,8 +1289,8 @@ m-indexHd .inner {
 }
 
 .m-uc-menu .menu-icon {
-    width: 52rpx;
-    height: 52rpx;
+    width: 45rpx;
+    height: 45rpx;
 }
 
 .m-uc-menu .menu-icon-txt {
@@ -1934,8 +1942,8 @@ m-indexHd .inner {
 }
 
 .inputBox {
-    height: 121rpx;
-    line-height: 121rpx;
+    height: 100rpx;
+    line-height: 100rpx;
     display: flex;
     position: relative;
 }
@@ -1949,6 +1957,7 @@ m-indexHd .inner {
 
 .inputBox .j-inputtext {
     width: 100%;
+    height:100rpx;
     border: 0;
     border-bottom: 1px solid #d9d9d9;
     font-size: 29rpx;
@@ -2338,7 +2347,7 @@ m-indexHd .inner {
 }
 
 .m-cartFT {
-    height: 121rpx;
+    height: 100rpx;
     width: 100%;
     display: flex;
     position: fixed;
@@ -2390,8 +2399,8 @@ m-indexHd .inner {
 
 .m-cartFT .w-button {
     margin-top: 0;
-    height: 121rpx;
-    line-height: 121rpx;
+    height: 100rpx;
+    line-height: 100rpx;
     background-color: #b4282d;
     color: #fff;
     font-size: 24rpx;
@@ -2422,6 +2431,7 @@ m-indexHd .inner {
 
 .ma-layort {
     background-color: #fff;
+    display: block;
     margin-top: 19rpx;
 }
 
@@ -2567,7 +2577,7 @@ m-indexHd .inner {
 
 .ma-layort .m-listItem {
     display: flex;
-    height: 115rpx;
+    height: 90rpx;
     align-items: center;
     padding-left: 22rpx;
 }
@@ -2613,7 +2623,7 @@ m-indexHd .inner {
 }
 
 .m-summary li.item {
-    height: 115rpx;
+    height: 90rpx;
     display: flex;
     border-bottom: 1px solid #f3f3f3;
     margin-left: 22rpx;
@@ -2636,11 +2646,11 @@ m-indexHd .inner {
 
 .ocViewFt .empty-block {
     margin-top: 22rpx;
-    height: 121rpx;
+    height: 100rpx;
 }
 
 .ocViewFt .main {
-    height: 121rpx;
+    height: 100rpx;
     width: 100%;
     display: flex;
     position: fixed;
@@ -2652,7 +2662,7 @@ m-indexHd .inner {
 
 .ocViewFt .left {
     flex: 1;
-    height: 121rpx;
+    height: 100rpx;
     border-top: 1px solid #d9d9d9;
     display: flex;
     align-items: center;
@@ -2670,8 +2680,8 @@ m-indexHd .inner {
 
 .ocViewFt .w-button {
     margin-top: 0;
-    height: 121rpx;
-    line-height: 121rpx;
+    height: 100rpx;
+    line-height: 100rpx;
     background-color: #b4282d;
     color: #fff;
     font-size: 29rpx;
@@ -2702,15 +2712,14 @@ m-indexHd .inner {
 }
 
 .orderReceiveList .w-button {
-    width: 915rpx;
-    margin-left: 30rpx;
+    width: 89.8%;
     margin-bottom: 30rpx;
     background: #f4f4f4;
     color: #b4282d;
-    border: 1px solid #b4282d;
+    /* border: 1px solid #b4282d; */
     border-radius: 2px;
     position: fixed;
-    left: 0;
+    left:5%;
     bottom: 0;
     z-index: 4;
 }
@@ -2755,7 +2764,7 @@ m-indexHd .inner {
 .m-address-form .section-1 {
     background: #fafafa;
     text-align: center;
-    height: 130rpx;
+    height: 100rpx;
     border-top: 1px solid #d9d9d9;
     border-bottom: 1px solid #d9d9d9;
     display: flex;
@@ -2770,8 +2779,8 @@ m-indexHd .inner {
 }
 
 .orderRFT {
-    height: 121rpx;
-    line-height: 121rpx;
+    height: 100rpx;
+    line-height: 100rpx;
     display: flex;
     position: fixed;
     bottom: 0;
@@ -2787,8 +2796,8 @@ m-indexHd .inner {
 
 .orderRFT .right {
     flex: 1;
-    height: 121rpx;
-    line-height: 121rpx;
+    height: 100rpx;
+    line-height: 100rpx;
     background-color: #b4282d;
     color: #fff;
     font-size: 24rpx;
@@ -2884,7 +2893,7 @@ m-indexHd .inner {
     margin-top: 22rpx;
 }
 
-.userProfile .avatar img {
+.userProfile .avatar .pic {
     border-radius: 50%;
     width: 225rpx;
     height: 225rpx;
@@ -2898,7 +2907,7 @@ m-indexHd .inner {
 .userProfile .infos .item {
     display: flex;
     align-items: center;
-    height: 121rpx;
+    height: 90rpx;
     border-bottom: 1px solid #f3f3f3;
 }
 
@@ -2960,6 +2969,7 @@ m-indexHd .inner {
 }
 
 .od-googs .hd, .order-item .hd {
+    height:80rpx;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3013,7 +3023,9 @@ m-indexHd .inner {
     display: flex;
     align-items: center;
 }
-
+.order-item .bd .goodInfo {
+    line-height:45rpx;
+}
 .od-googs .hd .p2, .order-item .bd .p2 {
     color: #666;
     font-size: 24rpx;
@@ -3182,7 +3194,7 @@ m-indexHd .inner {
     padding: 0 22rpx;
     margin: 15rpx;
     display: flex;
-    border: 1px solid #d9d9d9;
+    border: 1rpx solid #d9d9d9;
     border-radius: 3px;
 }
 
@@ -3196,10 +3208,11 @@ m-indexHd .inner {
 .m-couponHd .inner .btn {
     width: 218rpx;
     height: 69rpx;
+    line-height: 69rpx;
     display: inline-block;
     vertical-align: middle;
     color: #fff;
-    border: 1px solid #b4282d;
+    border: 1rpx solid #b4282d;
     background-color: #b4282d;
     font-size: 27rpx;
     margin: 15rpx;
@@ -3208,7 +3221,7 @@ m-indexHd .inner {
 }
 
 .m-couponHd .inner .disabled {
-    border: 1px solid #ccc !important;
+    border: 1rpx solid #ccc !important;
     background-color: #ccc !important;
 }
 
@@ -3233,7 +3246,7 @@ m-indexHd .inner {
 .ticketWrap .item .hd .right .btn {
     right: 39rpx;
     margin-top: -23rpx;
-    width: 212rpx;
+    width: 150rpx;
     height: 48rpx;
     line-height: 48rpx;
     font-size: 24rpx;
@@ -3241,7 +3254,7 @@ m-indexHd .inner {
     outline: 0;
     border: none;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 0.0399975rpx;
+    border-radius: 5rpx;
     color: #b69150;
 }
 

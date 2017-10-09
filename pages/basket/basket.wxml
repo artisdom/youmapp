@@ -74,7 +74,7 @@
                 </view>
             </view>
             <view class="right">
-                <view class="btn w-button">下单</view>
+                <navigator url="../order/orderConfirm/orderConfirm" hover-class="navigator-hover"><view class="btn w-button">下单</view></navigator>
             </view>
         </view>
     </view>

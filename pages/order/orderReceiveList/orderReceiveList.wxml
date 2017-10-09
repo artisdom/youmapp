@@ -1,0 +1,65 @@
+<view class="greybgh100">
+    <view class="m-indexHd" style="height: 44px;">
+        <view class="m-hd">
+            <view class="">
+                <view class="product-hd g-row">
+                    <view class="g-top g-row">
+                        <i class="icon tg-icon ion-ios-arrow-back"></i>
+                        <text class="topBarTitle">收货地址</text>
+                        <view class="right">
+                            <i class="icon tg-icon ion-ios-home-outline"></i>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="orderReceiveList">
+        <view class="m-shipAddress ma-layort">
+            <view class="u-icon u-address-bg">
+            </view>
+            <view class="item defualtItem">
+                <view class="left">
+                    <p class="uname">
+                        冯文乐
+                    </p>
+                    <span class="default">默认</span>
+                    <i class="icon icon-selected ion-checkmark-circled"></i>
+                </view>
+                <view class="middle">
+                    <p class="phone">
+                        176****2904
+                    </p>
+                    <p class="addr">
+                        上海-上海市-黄浦区 ， 石槎路396号骆驼大楼4F
+                    </p>
+                </view>
+                <view class="right">
+                    <i class="icon icon-right ion-ios-arrow-right"></i>
+                </view>
+            </view>
+            <view class="item defualtItem">
+                <view class="left">
+                    <p class="uname">
+                        是大好
+                    </p>
+                </view>
+                <view class="middle">
+                    <p class="phone">
+                        130****1246
+                    </p>
+                    <p class="addr">
+                        天津-天津市-和平区 ， 商量商量商量过了公司24号
+                    </p>
+                </view>
+                <view class="right">
+                    <i class="icon icon-right ion-ios-arrow-right"></i>
+                </view>
+            </view>
+        </view>
+        <view class="button-wrap">
+            <button class="w-button">＋ 新建地址</button>
+        </view>
+    </view>
+</view>

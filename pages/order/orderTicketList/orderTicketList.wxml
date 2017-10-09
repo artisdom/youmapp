@@ -1,0 +1,96 @@
+<!--pages/order/orderTicketList/orderTicketList.wxml-->
+<view class="container greybg">
+    <view class="m-indexHd" style="height: 44px;">
+        <view class="m-hd">
+            <view class="">
+                <view class="product-hd g-row">
+                    <view class="g-top g-row">
+                        <i class="icon tg-icon ion-ios-arrow-back"></i>
+                        <text class="topBarTitle">优惠券</text>
+                        <view class="right">
+                            <i class="icon tg-icon ion-ios-home-outline"></i>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="whitebg">
+        <view class="m-couponHd g-row">
+            <view class="inner">
+                <view class="m-ipt">
+                    <input type="text" class="ipt" placeholder="请输入优惠码" value="" />
+                </view>
+                <button class="btn disabled">兑换</button>
+            </view>
+        </view>
+    </view>
+    <view class="ticketWrap g-row">
+        <view class="item disabled">
+            <view class="hd">
+                <view class="left">
+                    <view class="p1">
+                        满299元减20元
+                    </view>
+                    <view class="p2">
+                        2017.09.26- 2017.10.31
+                    </view>
+                </view>
+                <view class="right">
+                    <view class="btn disabled">
+                        不可用
+                    </view>
+                </view>
+            </view>
+            <view class="bd">
+                <view class="p3">
+                    满299元减20元
+                </view>
+            </view>
+        </view>
+        <view class="item disabled">
+            <view class="hd">
+                <view class="left">
+                    <view class="p1">
+                        满299元减50元
+                    </view>
+                    <view class="p2">
+                        2017.09.26- 2017.10.31
+                    </view>
+                </view>
+                <view class="right">
+                    <view class="btn disabled">
+                        不可用
+                    </view>
+                </view>
+            </view>
+            <view class="bd">
+                <view class="p3">
+                    全场通用券：满299元减50元
+                </view>
+            </view>
+        </view>
+        <view class="item">
+            <view class="hd">
+                <view class="left">
+                    <view class="p1">
+                        满199元减20元
+                    </view>
+                    <view class="p2">
+                        2017.09.26- 2017.10.31
+                    </view>
+                </view>
+                <view class="right">
+                    <view>
+                    </view>
+                </view>
+            </view>
+            <view class="bd">
+                <view class="p3">
+                    全场通用券：满199元减20元
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

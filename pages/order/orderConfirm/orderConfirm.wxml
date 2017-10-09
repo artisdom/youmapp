@@ -1,0 +1,176 @@
+<!--pages/order/orderConfirm/orderConfirm.wxml-->
+<view class="container greybg">
+
+    <view class="m-indexHd" style="height: 44px;">
+        <view class="m-hd">
+            <view class="">
+                <view class="product-hd g-row">
+                    <view class="g-top g-row">
+                        <i class="icon tg-icon ion-ios-arrow-back"></i>
+                        <text class="topBarTitle">订单确认</text>
+                        <view class="right">
+                            <i class="icon tg-icon ion-ios-home-outline"></i>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="m-shipAddress ma-layort">
+        <view class="u-icon u-address-bg">
+        </view>
+        <view class="item">
+            <view class="left">
+            </view>
+            <view class="middle">
+                <view class="phone"></view>
+                <view class="addr">
+                    + 新建收货地址
+                </view>
+            </view>
+            <view class="right">
+                <i class="icon icon-right ion-ios-arrow-right"></i>
+            </view>
+        </view>
+    </view>
+
+    <view class="Payway ma-layort">
+        <view class="hd">
+            支付方式
+        </view>
+        <view class="ma-list">
+            <view class="item">
+                <i class="icon icon-ischecked-g ion-checkmark-circled"></i>
+                <view class="paywayItem">
+                    <image class="pic" src="https://img02.camel.com.cn/image/zfb_icon.png" alt=""></image>
+                    <text class="txt">支付宝</text>
+                </view>
+            </view>
+            <view class="item">
+                <i class="icon icon-nochecked-g ion-ios-circle-outline"></i>
+                <view class="paywayItem">
+                    <image class="pic" src="https://img02.camel.com.cn/image/wx_icon.png" alt=""></image>
+                    <text class="txt">微信</text>
+                </view>
+            </view>
+            <view class="item">
+                <i class="icon icon-nochecked-g ion-ios-circle-outline"></i>
+                <text class="txt">货到付款，客服会和您电话确认订单</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="Payway EXPway ma-layort">
+        <view class="hd">配送方式</view>
+        <view class="ma-list">
+            <view class="item">
+                <i class="icon icon-ischecked-g ion-checkmark-circled"></i>
+                <text class="txt">普通快递（满59元包邮）</text>
+            </view>
+            <view class="item">
+                <i class="icon icon-nochecked-g ion-ios-circle-outline"></i>
+                <text class="txt">顺丰特惠</text>
+            </view>
+            <view class="item">
+                <i class="icon icon-nochecked-g ion-ios-circle-outline"></i>
+                <text class="txt">EMS快递</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="campaigns">
+        <view class="left">
+            <view class="item">
+                <text class="txt">暂无优惠活动</text>
+            </view>
+        </view>
+        <view class="right"></view>
+    </view>
+
+    <view class="ma-plist ma-layort">
+        <view class="hd">我的商品</view>
+        <view class="m-cartGroup">
+            <ul class="list">
+                <li class="item">
+                    <view class="inner">
+                        <view class="m-good">
+                            <view class="imgWrap">
+                                <image src="https://img01.camel.com.cn/product/image/D6Y105770/0f9dd4ee-3c89-4d11-ac6c-2f82b5455ca0.jpg!prodimg100" alt=""></image>
+                            </view>
+                            <view class="cnt">
+                                <view class="xbox">
+                                    <text class="line1">骆驼秋冬新款男士轻薄羽绒服 可脱卸帽</text>
+                                    <text class="count">x1</text>
+                                </view>
+                                <text class="line2">咖啡 M(170/88A)</text>
+                                <text class="line3">￥258.00</text>
+                            </view>
+                        </view>
+                    </view>
+                </li>
+            </ul>
+            <view class="extraInfo" style="display: none;">
+                <text class="txt">不支持无理由退换货</text>
+                <i class="icon ion-information-circled"></i>
+            </view>
+        </view>
+    </view>
+
+    <view class="ma-layort">
+        <view class="m-listItem">
+            <view class="left">你拥有优惠券</view>
+            <view class="middel">3张
+            </view>
+            <view class="right">
+                <i class="icon icon-right ion-ios-arrow-right"></i>
+            </view>
+        </view>
+    </view>
+
+    <view class="ma-layort">
+        <view class="m-listItem">
+            <view class="left">
+                <i class="icon icon-nochecked-g ion-ios-circle-outline"></i>
+                <text class="txt">我要开发票</text>
+            </view>
+        </view>
+        <view class="m-invoiceView hide">
+            <input placeholder="请输入发票抬头" class="txtiput" name="invoiceText" focus="true" />
+        </view>
+    </view>
+
+    <view class="ma-layort">
+        <ul class="m-list m-summary">
+            <li class="item">
+                <view class="left">商品合计</view>
+                <view class="right">￥258.00</view>
+            </li>
+            <li class="item">
+                <view class="left">优惠金额</view>
+                <view class="right">￥0.00 </view>
+            </li>
+            <li class="item">
+                <view class="left">运费</view>
+                <view class="right">￥0.00 </view>
+            </li>
+            <li class="item">
+                <view class="left">购物积分</view>
+                <view class="right">258</view>
+            </li>
+        </ul>
+    </view>
+
+    <view class="ocViewFt">
+        <view class="empty-block"></view>
+        <view class="main">
+            <view class="left">
+                <text class="actualPrice">应付:￥258.00 </text>
+            </view>
+            <view class="right">
+                <view class="btn w-button">去付款</view>
+            </view>
+        </view>
+    </view>
+
+</view>

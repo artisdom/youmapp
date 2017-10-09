@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/member/orderList/orderList",
         "pages/index/index",
         "pages/logs/logs",
         "pages/search/search",
@@ -7,7 +8,12 @@
         "pages/basket/basket",
         "pages/center/center",
         "pages/product/productList/productList",
-        "pages/product/productDetail/productDetail"
+        "pages/product/productDetail/productDetail",
+        "pages/order/orderConfirm/orderConfirm",
+        "pages/order/orderReceive/orderReceive",
+        "pages/order/orderReceiveList/orderReceiveList",
+        "pages/order/orderTicketList/orderTicketList",
+        "pages/member/profile/profile"
     ],
     "window": {
         "backgroundTextStyle": "light",

@@ -18,13 +18,19 @@
             <view class="inner">
                 <view class="m-navs disflex">
                     <view class="active">
-                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">推荐</text></navigator>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover">
+                            <text class="txt">推荐</text>
+                        </navigator>
                     </view>
                     <view>
-                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">户外</text></navigator>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover">
+                            <text class="txt">户外</text>
+                        </navigator>
                     </view>
                     <view>
-                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">运动</text></navigator>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover">
+                            <text class="txt">运动</text>
+                        </navigator>
                     </view>
                     <view>
                         <text class="txt">瑜伽</text>
@@ -80,7 +86,9 @@
         <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" circular="{{circular}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
             <block wx:for="{{imgUrls}}">
                 <swiper-item>
-                    <navigator url="../product/productDetail/productDetail" hover-class="changestyle"><image src="{{item}}" class="slide-image" width="750" height="376" /></navigator>
+                    <navigator url="../product/productDetail/productDetail" hover-class="changestyle">
+                        <image src="{{item}}" class="slide-image" width="750" height="376" />
+                    </navigator>
                 </swiper-item>
             </block>
         </swiper>
@@ -121,14 +129,14 @@
 
     <view class="layort-h">
         <view class="zw-title">
-            <image style="width:260rpx; height:33rpx;" src='http://img02.camel.com.cn/image/zw_title1.png' alt=""></image>
+            <image mode='widthFix' style="width:200rpx" src='https://img02.camel.com.cn/image/zw_title1-wx.png' alt=""></image>
         </view>
         <view class="zw-pro1">
             <view class="zw-pro1-link">
-                <image style="width:375rpx; height:529rpx;" src="https://topic.camel.com.cn/module/wap_index_youtuijian_201709/d2b01ed0-a6ed-498c-8d6e-4de94b5ae5d7.jpg" alt=""></image>
+                <image mode='widthFix' src="https://topic.camel.com.cn/module/wap_index_youtuijian_201709/d2b01ed0-a6ed-498c-8d6e-4de94b5ae5d7.jpg" alt=""></image>
             </view>
             <view class="zw-pro1-link">
-                <image style="width:375rpx; height:529rpx;" src="https://topic.camel.com.cn/module/wap_index_youtuijian_201709/d737b248-0f9c-4d36-83b1-9c31bb13e1a3.jpg" alt=""></image>
+                <image mode='widthFix' src="https://topic.camel.com.cn/module/wap_index_youtuijian_201709/d737b248-0f9c-4d36-83b1-9c31bb13e1a3.jpg" alt=""></image>
             </view>
         </view>
     </view>
@@ -146,19 +154,21 @@
         </view>
         <view class="zw-pro3">
             <view>
-                <image style="width:750rpx; height:389rpx;" class="zw-pro3-top" src="https://topic.camel.com.cn/module/wap_index_timebuy_201709_1/79846bf8-7acf-4c39-b019-20113d1cf2c3.jpg" alt=""></image>
+                <image mode='widthFix' class="zw-pro3-top" src="https://topic.camel.com.cn/module/wap_index_timebuy_201709_1/79846bf8-7acf-4c39-b019-20113d1cf2c3.jpg" alt=""></image>
             </view>
-            <view class="zw-pro3-left">
-                <view>
-                    <image style="width:372rpx; height:591rpx;" src="https://topic.camel.com.cn/module/wap_index_timebuy_201709_1/dde245fa-2b54-4840-ab45-ce64ace8128b.jpg" alt=""></image>
+            <view class="flexBox">
+                <view class="zw-pro3-left">
+                    <view>
+                        <image mode='widthFix' src="https://topic.camel.com.cn/module/wap_index_timebuy_201709_1/dde245fa-2b54-4840-ab45-ce64ace8128b.jpg" alt=""></image>
+                    </view>
                 </view>
-            </view>
-            <view class="zw-pro3-right">
-                <view>
-                    <image style="width:372rpx; height:293rpx;" src="https://topic.camel.com.cn/module/wap_index_timebuy_201709_1/8f8a1d49-e0f1-4fa5-b51d-f9766e4e621b.jpg" alt=""></image>
-                </view>
-                <view>
-                    <image style="width:372rpx; height:293rpx;" src="https://topic.camel.com.cn/module/wap_index_timebuy_201709_1/e303f177-3d10-485f-8ca0-a5c42fc462e5.jpg" alt=""></image>
+                <view class="zw-pro3-right">
+                    <view>
+                        <image mode='widthFix' src="https://topic.camel.com.cn/module/wap_index_timebuy_201709_1/8f8a1d49-e0f1-4fa5-b51d-f9766e4e621b.jpg" alt=""></image>
+                    </view>
+                    <view>
+                        <image mode='widthFix' src="https://topic.camel.com.cn/module/wap_index_timebuy_201709_1/e303f177-3d10-485f-8ca0-a5c42fc462e5.jpg" alt=""></image>
+                    </view>
                 </view>
             </view>
         </view>
@@ -166,20 +176,21 @@
 
     <view class="layort-h">
         <view class="zw-title">
-            <image style="width:149rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title2.png" alt=""></image>
+            <image mode='widthFix' style="width:200rpx" src='https://img02.camel.com.cn/image/zw_title3-wx.png' alt=""></image>
         </view>
         <view class="zw-banner">
-            <image style="width:750rpx; height:400rpx;" src="https://topic.camel.com.cn/module/wap_index_topic_201709/3c0b5098-2e1a-4c05-a677-e20af52aee21.jpg" alt=""></image>
+            <image mode="widthFix" src="https://topic.camel.com.cn/module/wap_index_topic_201709/3c0b5098-2e1a-4c05-a677-e20af52aee21.jpg" alt=""></image>
         </view>
     </view>
 
     <view class="layort-h">
         <view class="zw-title">
-            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title3.png" alt=""></image>
+            
+            <image mode='widthFix' style="width:200rpx" src='https://img02.camel.com.cn/image/zw_title4-wx.png' alt=""></image>
             <text class="more">更多></text>
         </view>
         <view class="zw-banner">
-            <image style="width:750rpx; height:376rpx;" src="https://topic.camel.com.cn/module/wap_index_gooutdoor_201709/be8da4f7-2920-4b93-b66e-e053e2272094.jpg" alt=""></image>
+            <image mode="widthFix" src="https://topic.camel.com.cn/module/wap_index_gooutdoor_201709/be8da4f7-2920-4b93-b66e-e053e2272094.jpg" alt=""></image>
         </view>
 
         <view class="zw-proul">
@@ -212,12 +223,13 @@
 
     <view class="layort-h">
         <view class="zw-title">
-            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title4.png" alt=""></image>
+            
+            <image mode='widthFix' style="width:200rpx" src='https://img02.camel.com.cn/image/zw_title5-wx.png' alt=""></image>
             <text class="more">更多></text>
         </view>
 
         <view class="zw-banner">
-            <image style="width:750rpx; height:376rpx;" src="https://topic.camel.com.cn/module/wap_index_juhui_201709/8e584139-33d7-495a-86fc-af28f919bf0c.jpg" alt=""></image>
+            <image mode="widthFix" src="https://topic.camel.com.cn/module/wap_index_juhui_201709/8e584139-33d7-495a-86fc-af28f919bf0c.jpg" alt=""></image>
         </view>
 
         <view class="zw-proul2">
@@ -274,11 +286,12 @@
 
     <view class="layort-h">
         <view class="zw-title">
-            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title5.png" alt=""></image>
+            
+            <image mode='widthFix' style="width:200rpx" src='https://img02.camel.com.cn/image/zw_title6-wx.png' alt=""></image>
             <text class="more">更多></text>
         </view>
         <view class="zw-banner">
-            <image style="width:750rpx; height:376rpx;" src="https://topic.camel.com.cn/module/wap_index_pztravel_201709/fd7fe4df-bace-4b11-9923-d26a7eaeae8e.jpg" alt=""></image>
+            <image mode='widthFix' src="https://topic.camel.com.cn/module/wap_index_pztravel_201709/fd7fe4df-bace-4b11-9923-d26a7eaeae8e.jpg" alt=""></image>
         </view>
 
         <view class="zw-proul">
@@ -311,11 +324,11 @@
 
     <view class="layort-h">
         <view class="zw-title">
-            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title6.png" alt=""></image>
+            <image mode='widthFix' style="width:200rpx" src='https://img02.camel.com.cn/image/zw_title7-wx.png' alt=""></image>
             <text class="more">更多></text>
         </view>
         <view class="zw-banner">
-            <image style="width:750rpx; height:405rpx;" src="https://topic.camel.com.cn/module/wap_index_yujiagirl_201709/344cc183-61e5-444f-b22c-9c46e699f43f.jpg" alt=""></image>
+            <image mode='widthFix'src="https://topic.camel.com.cn/module/wap_index_yujiagirl_201709/344cc183-61e5-444f-b22c-9c46e699f43f.jpg" alt=""></image>
         </view>
 
         <view class="zw-proshow">
@@ -397,11 +410,11 @@
 
     <view class="layort-h">
         <view class="zw-title">
-            <image style="width:298rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title7.png" alt=""></image>
+            <image mode='widthFix' style="width:200rpx" src='https://img02.camel.com.cn/image/zw_title7-wx.png' alt=""></image>
             <text class="more">更多></text>
         </view>
         <view class="zw-banner">
-            <image style="width:750rpx; height:376rpx;" src="https://topic.camel.com.cn/module/wap_index_peichild_201709/0c70dad9-f11e-4e2d-9651-ad001bb94cda.jpg" alt=""></image>
+            <image mode='widthFix' src="https://topic.camel.com.cn/module/wap_index_peichild_201709/0c70dad9-f11e-4e2d-9651-ad001bb94cda.jpg" alt=""></image>
         </view>
 
         <view class="zw-proul">

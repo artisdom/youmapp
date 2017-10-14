@@ -189,7 +189,10 @@ page {
 
 
 
-
+image {
+    width:100%;
+    display: block;
+}
 .container  {
     overflow:hidden;
 }
@@ -201,7 +204,10 @@ page {
     background-color: #f4f4f4;
     min-height:100%;
 }
-
+.flexBox {
+    display: flex;
+    width:100%;
+}
 .greybgh100 {
     background-color: #f4f4f4;
     height:100%;
@@ -3783,7 +3789,7 @@ m-indexHd .inner {
 .zw-tabs-item image {
     width: 54rpx;
     height: 54rpx;
-    display: blcok;
+    display: inline-block;
 }
 
 .zw-tabs-item text {
@@ -3793,14 +3799,18 @@ m-indexHd .inner {
 }
 
 .zw-title {
+    display:flex;
     height: 104rpx;
     line-height: 104rpx;
     padding: 0 28rpx;
     background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .zw-title image {
-    height: 33rpx;
+    height:50rpx;
+    width:auto;
 }
 
 .zw-title view {
@@ -3810,7 +3820,6 @@ m-indexHd .inner {
 }
 
 .zw-title .more {
-    float: right;
     color: #a5a5a5;
     font-size: 24rpx;
 }
@@ -3818,18 +3827,18 @@ m-indexHd .inner {
 .zw-pro1 {
     padding-top: 11rpx;
     overflow-y: hidden;
+    width:100%;
     display: flex;
     background-color: #f4f4f4;
 }
 
 .zw-pro1-link {
-    margin-left: 0.0399999999999975rpx;
+    width:50%;
+    margin-left: 6rpx;
 }
 
 .zw-pro1 image {
-    width: 472rpx;
-    height: 7.039999975rpx;
-    display: block;
+    width:100%;
 }
 
 .zw-pro1 .zw-pro1-link:first-child {
@@ -3893,29 +3902,27 @@ m-indexHd .inner {
 }
 
 .zw-pro3-left {
-    height: 591rpx;
-    width: 372rpx;
-    float: left;
+    flex:1;
+    overflow:hidden;
 }
 
 .zw-pro3-left image {
-    width: 100%;
+    width:100%;
 }
 
 .zw-pro3-right {
-    margin-left: 6rpx;
-    width: 372rpx;
-    float: left;
+    margin-left: 8rpx;
+    flex:1;
+    overflow:hidden;
 }
 
 .zw-pro3-right image {
-    height: 367rpx;
-    margin-bottom: 6rpx;
+    width:100%;
     display: block;
 }
 
-.zw-pro3-right img:first-child {
-    margin-bottom: 0.0600rpx;
+.zw-pro3-right image:first-child {
+    margin-bottom: 8rpx;
 }
 
 .zw-proul {

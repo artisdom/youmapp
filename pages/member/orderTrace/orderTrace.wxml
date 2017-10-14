@@ -1,0 +1,40 @@
+<!--pages/member/orderTrace/orderTrace.wxml-->
+<view class="container greybg">
+    <view class="m-delivery">
+        <view class="tabNav">
+            <view class="item active">包裹1</view>
+            <view class="item ">包裹2</view>
+        </view>
+        <view class="tabCon">
+            <view class="">
+                <view class="deliveryInfo">
+                    <view class="icon-express"></view>
+                    <view class="infoWarp">
+                        <view class="d1">
+                            <text class="s1">物流公司：</text>
+                        </view>
+                        <view class="d1">
+                            <text class="s1">物流单号：</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="deliveryDetail">
+                    <view class="item active">
+                        <i class="icon icon-dot ion-ios-location-outline"></i>
+                        <view class="detail">
+                            <view class="desc">物流信息查询出现异常</view>
+                            <view class="time">2017/10/11 10:00:03</view>
+                        </view>
+                    </view>
+                    <view class="item ">
+                        <i class="icon icon-dot ion-ios-location-outline"></i>
+                        <view class="detail">
+                            <view class="desc">您的包裹已出库</view>
+                            <view class="time">2016-04-07 15:32:58</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

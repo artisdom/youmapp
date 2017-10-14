@@ -1,0 +1,17 @@
+<!--pages/portal/help/help.wxml-->
+<view class="container greybg">
+    <view class="helpCon g-row">
+        <view class="wraper">
+            <view class="question">正品保证</view>
+            <view class="answer">骆驼优品，是“广东骆驼服饰有限公司”旗下骆驼品牌中国区官方优品商城，所售卖产品，全部为厂家原装正品。</view>
+        </view>
+        <view class="wraper">
+            <view class="question">免费拒收</view>
+            <view class="answer">如果您对收到的商品不满意或鞋码不合适，您可以直接将商品拒收，并无需承担任何费用。</view>
+        </view>
+        <view class="wraper">
+            <view class="question">“三包”保障</view>
+            <view class="answer">a．客户购买产品之日7天内（以签收包裹之日起计），在不影响二次销售前提下可以无条件退换；b．凡在一个月内正常穿着使用而出现断底、断面、断跟、断帮之一者，无条件退换c．因质量问题造成的退换货，来回运费由骆驼优品承担。非质量问题退换货的，返回到骆驼优品的运费由客户负责，再次发出的运费由骆驼优品负责，免费提供服务。</view>
+        </view>
+    </view>
+</view>

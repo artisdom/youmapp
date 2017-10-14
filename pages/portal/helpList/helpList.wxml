@@ -1,0 +1,15 @@
+<!--pages/portal/helpList/helpList.wxml-->
+<view class="container greybg">
+    <view class="helpWrap g-row">
+        <view class="list">
+            <view class="item">
+                <view class="tit">购物流程</view>
+                <i class="icon icon-arrow-right ion-ios-arrow-forward"></i>
+            </view>
+            <view class="item">
+                <view class="tit">购物保障</view>
+                <i class="icon icon-arrow-right ion-ios-arrow-forward"></i>
+            </view>
+        </view>
+    </view>
+</view>

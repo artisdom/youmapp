@@ -1,0 +1,32 @@
+<!--pages/member/account/account.wxml-->
+<view class="container greybg">
+    <view class="account-wrap">
+        <view class="hd">
+            用户名：
+            <span class="uname">joek2222</span>
+        </view>
+        <view class="accoutn-bind">
+            <view class="item">
+                <view class="left">
+                    <i class="icon ion-ios-telephone-outline"></i>
+                    <view class="t">登录手机</view>
+                </view>
+                <button class="btn">修改手机</button>
+            </view>
+            <view class="item">
+                <view class="left">
+                    <i class="icon ion-ios-email-outline"></i>
+                    <view class="t">登录邮箱</view>
+                </view>
+                <button class="btn">修改邮箱</button>
+            </view>
+            <view class="item">
+                <view class="left">
+                    <i class="icon ion-ios-locked-outline"></i>
+                    <view class="t">登录密码</view>
+                </view>
+                <button class="btn">修改密码</button>
+            </view>
+        </view>
+    </view>
+</view>

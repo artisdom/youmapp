@@ -1,0 +1,87 @@
+<!--pages/member/productStore/productStore.wxml-->
+<view class="container greybg">
+    <view class="productStore">
+        <view class="m-cartGroup">
+            <view class="list">
+                <view class="item">
+                    <view class="inner">
+                        <view class="m-good">
+                            <view class="imgWrap">
+                                <view>
+                                    <image src="https://img01.camel.com.cn/product/image/A7W217127/047d1193-85ec-4745-a4bc-0601db455edf.jpg!prodimg100" alt=""></image>
+                                </view>
+                            </view>
+                            <view class="cnt">
+                                <view class="vc">
+                                    <view>
+                                        <text class="line1">骆驼户外冲锋衣男女防污防水三合一两件套冲锋衣</text>
+                                    </view>
+                                    <view>
+                                        <text class="line3">￥479.00</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="m-selnum">
+                            </view>
+                        </view>
+                        <view class="del">
+                            <i class="icon icon-trash ion-ios-trash-outline"></i>
+                        </view>
+                    </view>
+                </view>
+                <view class="item">
+                    <view class="inner">
+                        <view class="m-good">
+                            <view class="imgWrap">
+                                <view>
+                                    <image src="https://img01.camel.com.cn/upload/ProdPicture/20170218/c843d2fc-a16c-41ab-b0ce-fb7aecffcef9.jpg!prodimg100" alt=""></image>
+                                </view>
+                            </view>
+                            <view class="cnt">
+                                <view class="vc">
+                                     <view>
+                                        <text class="line1">骆驼户外冲锋衣男女防污防水三合一两件套冲锋衣</text>
+                                    </view>
+                                    <view>
+                                        <text class="line3">￥479.00</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="m-selnum">
+                            </view>
+                        </view>
+                        <view class="del">
+                            <i class="icon icon-trash ion-ios-trash-outline"></i>
+                        </view>
+                    </view>
+                </view>
+                <view class="item">
+                    <view class="inner">
+                        <view class="m-good">
+                            <view class="imgWrap">
+                                <view>
+                                    <image src="https://img01.camel.com.cn/upload/ProdPicture/20140108/e40d3092-b7b2-430a-9911-282a6a82fdc3.jpg!prodimg100" alt=""></image>
+                                </view>
+                            </view>
+                            <view class="cnt">
+                                <view class="vc">
+                                     <view>
+                                        <text class="line1">骆驼户外冲锋衣男女防污防水三合一两件套冲锋衣</text>
+                                    </view>
+                                    <view>
+                                        <text class="line3">￥479.00</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="m-selnum">
+                            </view>
+                        </view>
+                        <view class="del">
+                            <i class="icon icon-trash ion-ios-trash-outline"></i>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

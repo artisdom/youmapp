@@ -175,10 +175,6 @@ html, body {
     -webkit-text-size-adjust: none;
 }
 
-#root {
-    /* height: 100%; */
-}
-
 page {
     height:100%;
 }
@@ -194,7 +190,9 @@ page {
 
 
 
-
+.container  {
+    overflow:hidden;
+}
 .whitebg {
     background-color: #fff;
 }
@@ -1940,7 +1938,9 @@ m-indexHd .inner {
     padding: 41rpx;
     padding-top: 115rpx;
 }
-
+.login-form .hd {
+    font-size:28rpx;
+}
 .inputBox {
     height: 100rpx;
     line-height: 100rpx;
@@ -1975,8 +1975,8 @@ m-indexHd .inner {
 }
 
 .btn-login {
-    height: 121rpx;
-    line-height: 121rpx;
+    height: 80rpx;
+    line-height: 80rpx;
     text-align: center;
     border: 1px solid #f23030;
     margin-top: 37rpx;
@@ -1984,6 +1984,7 @@ m-indexHd .inner {
 }
 
 .ben-login-txt {
+    height:40rpx;
     color: #f23030;
     font-size: 30rpx;
 }
@@ -2021,8 +2022,8 @@ m-indexHd .inner {
 .login-form .scode .getcode {
     flex: 1;
     background: #d05a5a;
-    height: 17rpx;
-    line-height: 17rpx;
+    height: 80rpx;
+    line-height: 80rpx;
     color: #fff;
     border-radius: 3px;
     text-align: center;
@@ -2202,9 +2203,10 @@ m-indexHd .inner {
     margin-bottom: 22rpx;
     padding-left: 115rpx;
     overflow: hidden;
+    margin-top:20rpx;
 }
 
-.m-cartGroup li.item {
+.m-cartGroup .item {
     border-bottom: 1px solid #d9d9d9;
     user-select: none;
 }
@@ -2216,7 +2218,7 @@ m-indexHd .inner {
     left: 0;
 }
 
-.m-cartGroup li:last-child {
+.m-cartGroup .item:last-child {
     border: 0;
 }
 
@@ -2241,6 +2243,7 @@ m-indexHd .inner {
 
 .m-cartGroup .cnt {
     height: 160rpx;
+    line-height:30rpx;
 }
 
 .m-cartGroup .cnt .line1 {
@@ -2284,13 +2287,14 @@ m-indexHd .inner {
 }
 
 .m-cartGroup .m-selnum .textWrap .txt {
-    height: 30rpx;
-    border: 1px solid #999;
+    line-height: 50rpx;
+    height:50rpx;
 }
 
 .m-cartGroup .m-selnum .textWrap {
-    line-height: 48rpx;
+    height:50rpx;
     width: 75rpx;
+    border: 1px solid #999;
 }
 
 .m-cartGroup .icon-nochecked-g {
@@ -3064,7 +3068,7 @@ m-indexHd .inner {
     height: 63rpx;
     font-size: 27rpx;
     line-height: 63rpx;
-    width: 221rpx;
+    width: 160rpx;
     border: 1px solid #d6d6d6;
     border-radius: 4px;
     margin-top: 0;
@@ -3072,7 +3076,7 @@ m-indexHd .inner {
 }
 
 .order-item .btns, .orderDetail .btns {
-    height: 126rpx;
+    height: 100rpx;
     border-top: 1px solid #f3f3f3;
 }
 
@@ -3090,6 +3094,7 @@ m-indexHd .inner {
     font-size: 27rpx;
     color: #666;
     padding: 22rpx;
+    line-height: 50rpx;
 }
 
 .orderDetail .odinfos .s1 {
@@ -3114,7 +3119,7 @@ m-indexHd .inner {
 }
 
 .orderDetail .p6 {
-    margin-top: 22rpx;
+    margin-top: 10rpx;
 }
 
 .orderDetail .od-googs {
@@ -3129,6 +3134,7 @@ m-indexHd .inner {
     background-color: #fff;
     margin-top: 22rpx;
     padding: 22rpx;
+    line-height:40rpx;
 }
 
 .od-addr .p1 {
@@ -3144,6 +3150,7 @@ m-indexHd .inner {
 
 .od-addr .row-item .sp1 {
     flex: 1;
+    color:#666;
 }
 
 .od-addr .row-item .sp2 {
@@ -3337,7 +3344,7 @@ m-indexHd .inner {
     position: relative;
     border-bottom: 1px solid #d9d9d9;
     padding: 22rpx;
-    padding-left: 0;
+    padding-left: 10rpx;
     font-size: 24rpx;
     color: #666;
 }
@@ -3348,7 +3355,7 @@ m-indexHd .inner {
 
 .deliveryDetail .icon-dot {
     position: absolute;
-    top: 15rpx;
+    top: 25rpx;
     left: -41rpx;
     font-size: 42rpx;
     color: #999;
@@ -3385,7 +3392,7 @@ m-indexHd .inner {
 .accoutn-bind .item {
     display: flex;
     align-items: center;
-    height: 122rpx;
+    height: 90rpx;
     background-color: #fff;
     border-bottom: 1px solid #f3f3f3;
     padding: 0 22rpx;
@@ -3405,17 +3412,18 @@ m-indexHd .inner {
 }
 
 .accoutn-bind .item .btn {
-    border: 1px solid #d9d9d9;
+    /* border: 1px solid #d9d9d9; */
     background-color: #fff;
-    height: 60rpx;
+    height: 50rpx;
+    line-height:50rpx;
     width: 150rpx;
     font-size: 24rpx;
     border-radius: 3px;
 }
 
 .account-wrap .hd {
-    height: 115rpx;
-    line-height: 115rpx;
+    height: 100rpx;
+    line-height: 100rpx;
     text-indent: 15rpx;
     font-size: 24rpx;
 }
@@ -3431,6 +3439,7 @@ m-indexHd .inner {
 .productStore .m-cartGroup .cnt {
     display: flex;
     align-items: center;
+    margin-right:20rpx;
 }
 
 .commentWrap .textarea {
@@ -3448,7 +3457,7 @@ m-indexHd .inner {
 }
 
 .comment-pics .pic {
-    height: 100%;
+    width:100%;
 }
 
 .comment-pics .item {
@@ -3469,7 +3478,7 @@ m-indexHd .inner {
 }
 
 .commentWrap .commentBtn .btn {
-    border: 1px solid #d9d9d9;
+    /* border: 1px solid #d9d9d9; */
     background-color: #fff;
     font-size: 27rpx;
     padding: 15rpx 22rpx;
@@ -3574,7 +3583,7 @@ m-indexHd .inner {
 }
 
 .applyWrap .commentBtn .btn {
-    border: 1px solid #d9d9d9;
+    /* border: 1px solid #d9d9d9; */
     background-color: #fff;
     font-size: 27rpx;
     padding: 15rpx 22rpx;
@@ -3672,7 +3681,7 @@ m-indexHd .inner {
     justify-content: space-between;
     background: #fff;
     margin-left: 30rpx;
-    min-height: 129rpx;
+    min-height: 100rpx;
     border-bottom: 1px solid #f3f3f3;
     align-items: center;
 }

@@ -1,0 +1,90 @@
+<!--pages/member/apply/apply.wxml-->
+<view class="container greybg">
+    <view class="orderDetail">
+        <view class="odinfos">
+            <view class="txtwrap">
+                <view class="p1">
+                    下单时间：
+                    <span class="s1">2017年10月12日 18:53:37</span>
+                </view>
+                <view class="p1">
+                    订单编号：
+                    <span class="s1">201710121854098642</span>
+                </view>
+            </view>
+        </view>
+        <view class="od-googs">
+            <view class="hd">
+                <span class="orderId title">退货申请</span>
+                <view class="p4">
+                    申请中
+                </view>
+            </view>
+            <view class="order-item">
+                <view class="bd">
+                    <view class="left">
+                        <image src="https://img01.camel.com.cn/product/image/D6Y105770/fb0a8c0f-eb87-4475-8f67-796caad29584.jpg!prodimg100" class="pic" alt=""></image>
+                    </view>
+                    <view class="middle">
+                        <view class="goodInfo">
+                            <view class="p1">
+                                Camel骆驼男装 秋冬款新品男士流行纯色可脱卸帽羽绒服外套
+                            </view>
+                            <view class="p2">
+                                咖啡*M(170/88A)
+                            </view>
+                            <view class="p6">
+                                ￥184.00
+                            </view>
+                        </view>
+                    </view>
+                    <view class="right">
+                        <view class="p3">
+                            x1
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="od-addr applyWrap">
+            <view class="hd">
+                流程进度
+            </view>
+            <view class="deliveryDetail">
+                <view class="item active">
+                    <i class="icon icon-dot ion-ios-chatboxes-outline"></i>
+                    <view class="detail">
+                        <view class="desc">
+                            退运费，f1
+                        </view>
+                        <view class="time">
+                            2017年10月12日 18:54:12
+                        </view>
+                    </view>
+                </view>
+                <view class="item ">
+                    <i class="icon icon-dot ion-ios-chatboxes-outline"></i>
+                    <view class="detail">
+                        <view class="desc">
+                            退运费，f1
+                        </view>
+                        <view class="time">
+                            2017年10月12日 18:54:12
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="od-addr applyWrap">
+            <view class="hd">
+                回复申请
+            </view>
+            <view class="repost">
+                <textarea class="textarea" placeholder="请输入回复内容~"></textarea>
+            </view>
+            <view class="commentBtn">
+                <button class="btn">提交回复</button>
+            </view>
+        </view>
+    </view>
+</view>

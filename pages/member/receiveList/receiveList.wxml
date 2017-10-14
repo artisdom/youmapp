@@ -1,0 +1,49 @@
+<!--pages/member/receiveList/receiveList.wxml-->
+<view class="container greybg">
+    <view class="orderReceiveList">
+        <view class="m-shipAddress ma-layort">
+            <view class="u-icon u-address-bg">
+            </view>
+            <view class="item">
+                <view class="left">
+                    <view class="uname">
+                        测试
+                    </view>
+                    <span class="default">默认</span>
+                </view>
+                <view class="middle">
+                    <view class="phone">
+                        130****0000
+                    </view>
+                    <view class="addr">
+                        重庆-重庆市-涪陵区，测试地址1
+                    </view>
+                </view>
+                <view class="right">
+                    <i class="icon icon-right ion-ios-arrow-right"></i>
+                </view>
+            </view>
+            <view class="item">
+                <view class="left">
+                    <view class="uname">
+                        徐先生
+                    </view>
+                </view>
+                <view class="middle">
+                    <view class="phone">
+                        132****7847
+                    </view>
+                    <view class="addr">
+                        广东省-广州市-白云区，石井凰岗村凰岗老人活动中心附近
+                    </view>
+                </view>
+                <view class="right">
+                    <i class="icon icon-right ion-ios-arrow-right"></i>
+                </view>
+            </view>
+        </view>
+        <view class="button-wrap">
+            <button class="w-button">＋ 新建地址</button>
+        </view>
+    </view>
+</view>

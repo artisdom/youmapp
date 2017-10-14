@@ -1,0 +1,29 @@
+<!--pages/member/mobileVerify/mobileVerify.wxml-->
+<view class="container">
+    <view class="g-row">
+        <view class="login-form">
+            <view class="hd">
+                手机号：
+                <text class="uname">13058428969</text>
+            </view>
+            <view class="inputwrap">
+                <view class="inputBox scode">
+                    <input type="number" class="j-inputtext lophone" placeholder="短信验证码" maxlength="6" value="" />
+                    <view class="utip">
+                        <i class="icon u-clear ion-ios-close"></i>
+                    </view>
+                    <view class="getbox">
+                        <view class="getcode">
+                            获取验证码
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="btn-login">
+                <view class="ben-login-txt">
+                    下一步
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

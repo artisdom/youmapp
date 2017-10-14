@@ -1,0 +1,35 @@
+<!--pages/member/productComment/productComment.wxml-->
+<view class="container greybg">
+    <view class="m-productComment">
+        <view class="commentContent">
+            <view class="order-item">
+                <view class="bd">
+                    <view class="left">
+                        <image src="http://img01.camel.com.cn/product/image/D6Y105770/fb0a8c0f-eb87-4475-8f67-796caad29584.jpg!prodimg100" alt="" class="pic"></image>
+                    </view>
+                    <view class="middle">
+                        <view class="goodInfo">
+                            <view class="p1">Camel骆驼男装 秋冬款新品男士流行纯色可脱卸帽羽绒服外套</view>
+                            <view class="p2">咖啡，M(170/88A)</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="commentWrap">
+                <view class="taWrap">
+                    <textarea class="textarea" placeholder="商品是否给力？快分享你的购买心得吧~"></textarea>
+                </view>
+                <view class="comment-pics">
+                    <view class="item">
+                        <input type="file" class="file-input" name="file" accept="image/jpeg,image/png,image/jpg" />
+                        <image class="pic" mode="widthFix" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACYCAIAAACXoLd2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUE5MjA2RDU3ODIxMTFFN0JFREJCNEE1NkVFRkU2MkEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUE5MjA2RDY3ODIxMTFFN0JFREJCNEE1NkVFRkU2MkEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQTkyMDZEMzc4MjExMUU3QkVEQkI0QTU2RUVGRTYyQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQTkyMDZENDc4MjExMUU3QkVEQkI0QTU2RUVGRTYyQSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pt9egosAAAU4SURBVHja7J1bT+pMFIYVChQMFg+cTbwwnv//PzFGovFGqOcjCG0p9ltQw9egbpvsdOOMz3MjafbaQ9fbmXmnrE4XgyAYDoftdrvX63metxAhl8sdHh4uLi5Oj8g/ODo6kpCF75DYg4ODVCoVjT0+Ph6NRt/GZrPZ/f19wzCmR+QbSqzv+3Fi9/b2MplMNPbk5GTm1L6K3dnZkW8ejW21Wq7rxond3t42TTMae3p6OhgM4sRubW0VCoVo7NnZWb/f/3OgnGaxWGw0GvKdjfg5gp+GaNftdkU7EXLx/Pz84eHBsqzNzc3ohQxqkZIRVf6govJChpMHKqqOQQpUR/yUWEhDPA+5UJqLiwuxPEa9XicXOsyRpAAhASEBIeFzIe0JJEJ5Ia8mkAjlbwjE+SkDmCMBIQEhERKUNTukQHXy+TxC6sDGxgZC6kBYHcccidkBhARcK8zyXrNDqYfqhE8JIKTyBEHw9vZmRB/tAMwOICTgWr9FXIB4Ad/3m82mZVnRx/x065GXE3Q9vU6n0+/3XdcN5dR5aNVbSM/zwlqW6Qdth1ZqdjA7gJCAkICQrCPhB5PP58WxIqTyNJtNhNRidpzcrmKOxOwAQgKuFWYZDAbjCoFarUYulKbT6VCzowPSHcdVdBr/1orZAYQEhIS/EpLtWTRZR4YFOyxClBdSzCtZYI4EhASEBITU1+yQAtUxTZNSDx2gZkcT0uk0cyRmBxAScK3wCY7jjCsEqtUquVAaanY0Qbqj7/tGaF4BswMICQgJs0JeTyARyq8jw5odFiHKCynmNbn/XdY3ssoJX6w+F4bD4fRzq9Wa11aYhjFer5dKpeTq+pO9s9Nut/v9/g/Zkykq6j9GLmXbtguFgmmaSpodWaiys9Z02Z5oKpIVstlsZrNZVAyH1kwmk2ATiZ6AZVlLS0tz7JQyL05H1N3d3URT+Qdkbk5PUFVImdvn2yOj7kZUzOVy+nV3mXfHTywz7qlOo9GgZkeTCXiBW3TagJAICT9qgCUFquM4zti1VioVcqE0tm2/vr5Ss6M8vu97nmeE5hUwO4CQgJAwK+TNBBKh/DoyrNlhEaK8kHq/w405EhASEBIQ8tebHVKgOtTsaEK9XqdmRwfCGk/mSMwOICTgWmGW95qdcrlMLpTm8vJyXLPTaDTIhdIMh0PXdanZwewAQgJCwhdC3k4gEcqvI8OaHRYhygs5x01LgDkSEBIhASEhebOj+ekZRriloXyY146CSZPL5cZvGdBbyGq1atu2nKd80HX39nq9rn/xValUKhQKQRBkMhldhQz3FtNcyFQqldzOmpgdQEj4na71N+C67ti1crtcdd5rdthnR3Vkoew4jjGvTYUBswMIiZDw04W8m0AilF9H2rYtf9bX18mF2kJSs8McCQgJCAkIqbXZIQWq8ytqdn4DtVqNDZM06ZHMkZgdQEjAtcInuK47NjvcLledq6sranY06ZGDwcDg9fJKMxqNgiBIp9OYHbVVvL+/9zzPNE1jOs6+vLzEvI+wvLwcPXJ9ff38/BwntlqtSmz08TaJlXblmvo2tlKpWJYVjb25uZF248SWy2WJTaX+v2pvb28lVjzCt7HiIUqlUjT27u7u6ekpZqy0G314SPL++PgYJ3ZtbU3anYmVdkW86RE5d1FRjogo70JKghzHifMjszQg8dGESmCv14uT0NXV1Y/je7fbjRO7srIy067ESrtxkiIZ+diuxEaT8hWixMzXix8rV+3HWDEmcV6aUywWZ2JFM2k3GisyS18UFeUE/xNgAAfrhYsE+YqrAAAAAElFTkSuQmCC"
+                            alt=""></image>
+                    </view>
+                </view>
+                <view class="commentBtn">
+                    <button class="btn">提交</button>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
